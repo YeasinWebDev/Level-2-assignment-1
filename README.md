@@ -7,13 +7,13 @@
 2. What is the use of the keyof keyword in TypeScript? Provide an example.
 => keyof keyword used in typescript to extracted key form an object
 
-``
-type User = {
-  id: number;
-  name: string;
-  isAdmin: boolean;
-};
-
-type UserKeys = keyof User;
-// will get : id , name , isAdmin
-``
+``` 
+     type User = {
+       id: number;
+       name: string;
+       isAdmin: boolean;
+     };
+     
+     type UserKeys = keyof User;
+     // will get : id , name , isAdmin
+```
